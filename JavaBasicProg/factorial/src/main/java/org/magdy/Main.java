@@ -15,19 +15,32 @@ public class Main {
 
 
         //===================================================================
+//
+//        // here we can have random with class Random
+//        Random random=new Random();
+//        int numb= random.nextInt();
+//        System.out.println("random number = "+numb);
+//
+//        double numb2=random.nextDouble();
+//        System.out.println("random number = "+numb2);
+//
+//
+//        // here we can have ThreadLoca
+//        double c = ThreadLocalRandom.current().nextDouble();
+//        System.out.println("random number = "+c);
 
-        // here we can have random with class Random
-        Random random=new Random();
-        int numb= random.nextInt();
-        System.out.println("random number = "+numb);
-
-        double numb2=random.nextDouble();
-        System.out.println("random number = "+numb2);
 
 
-        // here we can have ThreadLoca
-        double c = ThreadLocalRandom.current().nextDouble();
-        System.out.println("random number = "+c);
+        //========================================================================
+
+        //How to Print Pattern in Java
+        int row = 6;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.println("*");
+            }
+            System.out.println();
+        }
 
 
     }
